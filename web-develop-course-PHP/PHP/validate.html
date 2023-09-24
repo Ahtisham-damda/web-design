@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <form action="">
+        <input type="text" name="first-name" id="fname"><br><br>
+    <div id="fname_error"></div>
+    <input type="text" name="last-name" id="lname"><br><br>
+    <div id="lname_error"></div>
+    <input type="text" name="email" id="email"><br><br>
+    <div id="email_error"></div>
+    <input onclick="validate()" type="submit">
+    </form>
+
+    <script>
+        function validate(){
+            let fname = document.getElementById("fname").value;
+            let lname = document.getElementById("lname").value;
+            let email = document.getElementById("email").value;
+            let email_error = document.getElementById("email_error");
+            let fname = document.getElementById("fname_error");
+            let lname_error = document.getElementById("lname_error");
+
+
+            if(fname == ""){
+                fname_error.innerHTML= "must enter first name";
+            }else if(lname == ""){
+                lname.innerHTML= "must enter last name";            }else if(email == ""){
+                    email_error.innerHTML= "must enter email";
+                }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+h4{
+    color: rgb(91, 163, 169);
+}
+ h2{
+    color: rgb(72, 139, 135);
+ }
+
+
+
+ body{
+    background-color: rgb(56, 21, 50);
+    text-align: center;
+ }
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

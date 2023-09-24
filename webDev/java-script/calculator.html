@@ -1,0 +1,51 @@
+<html >
+<head>
+    <style>
+    .button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 12px 2px;
+
+}
+body {
+  text-align:center;
+  /* background-color: aquamarine; */
+}
+button{
+  background-color: aqua;
+  padding: 8px;
+  width: 10%;
+
+}
+button:hover{
+  background-color: greenyellow;
+  padding: 8px;
+}
+    </style>
+   <script src="calculator.js"></script>
+</head>
+<body>
+    
+         <input type="text" id="firstNum" name="firstNum"  placeholder="1st value"><br><br>
+        <input type="text" id="secondNum" name="secondNum" placeholder="2nd value"><br><br>
+
+        <!-- <button onclick="Multiply()" class="button">Multiply</button>
+        <button onclick="divide()" class="button">Divide</button>
+        <button onclick="add()" class="button">add</button>
+        <button onclick="subtract()" class="button">subtract</button> -->
+        <button onclick="index()" id="button">calculate</button>
+    
+    <h3>The result is:</h3>
+    <p id="M-display">Multiplication=  </p>
+    <p id="A-display">division=  </p>
+    <p id="D-display">addition=  </p>
+    <p id="S-display">subtraction=  </p>
+   
+</body>
+</html>

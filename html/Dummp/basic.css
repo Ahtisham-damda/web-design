@@ -1,0 +1,30 @@
+li{
+    float: left;
+    /* background-color: aqua; */
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: cadetblue;
+}
+#top-nav{
+list-style-type: none;
+overflow: hidden;
+background-color:aquamarine;
+}
+
+li{
+background-color:aquamarine; 
+color:burlywood;
+padding: 14px;
+}
+li:hover{
+    background-color: aqua;
+    color: gray;
+
+}
+li a{
+    text-decoration: none;
+    display: inline-block;
+}

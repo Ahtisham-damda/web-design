@@ -1,0 +1,126 @@
+img{
+    width: 300px;
+    float: left;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+h1{
+    font-family: "Dancing script";
+    font-size: 80px;
+    line-height: 1.1;
+}
+h2{
+    font-family:"Dancing script";
+    font-size: 42px;
+}
+h1,h2{
+    margin: 5px;
+    font-weight: 400;
+}
+.content-wrap{
+    max-width: 800;
+    width: 75%;
+    margin: 0px auto;
+    /* justify-content: center; */
+    /* margin bottom: 0px; */
+    padding: 50px;
+}
+header{
+    background-color: purple;
+    /* padding: 0px; */
+    /* margin-top: 0px; */
+    /* text-align: center; */
+    /* counter-reset: ; */
+}
+
+.projects{
+    background-color: palevioletred;
+    /* padding-bottom:; */
+    padding: 0px;
+    text-align: left;
+}
+
+.work-experience{
+    background-color: cyan;
+}
+
+.education{
+    background-color:lightblue;
+}
+
+footer{
+    background-color: yellow;
+    /* margin-bottom: 0px; */
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+section.project-item{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: beige;
+}
+a:hover{
+    text-decoration: underline;
+}
+.divider > section {
+    border-bottom: 3px dotted black;
+    padding-bottom: 20px;
+}
+.divider > section:last-of-type{
+    border:0px;
+}
+.item-details h3{
+    margin-bottom: 0px;
+}
+.item-details h3+p{
+    font-style: italic;
+}
+/* .item-details h3~p{
+    margin: 0px; */
+}
+/* img{ */
+    /* float: left;
+    padding-bottom: 20px;
+    margin-right: 10px; */
+}
+/* .work-experience::after{
+    clear: both;
+    content: ""; */
+}
+.job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+/* project-item a{
+    border-radius: 2px;
+    border: 2px black solid;
+} */
+.contact-list{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+/* ul a{
+    padding: 20px;
+    
+}
+@media only screen {
+    
+} */
+

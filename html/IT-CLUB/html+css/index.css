@@ -1,0 +1,22 @@
+h4{
+    color: rgb(56, 76, 78);
+}
+ h2{
+    color: rgb(128, 216, 210);
+ }
+
+
+
+ body{
+    background-color: rgb(153, 98, 185);
+    text-align: center;
+ }
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+button{
+    background-color: rgb(109, 203, 145);
+}

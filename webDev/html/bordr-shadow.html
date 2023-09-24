@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Box modules</title>
+        <style>
+            .main-heading{
+                text-align: center;
+                padding: 100px;
+                margin-left: 100px;
+                margin-right:100px;
+                margin-top: 100px;
+                background-color:silver;
+            }
+            
+            .btn{
+                padding: 5px;
+                margin: 15px;
+                border:none;
+                background-color: rgb(46, 32, 32);
+                color:tomato;
+               }
+
+            .btn:hover{
+                padding: 5px;
+                margin: 15px;
+                border:none;
+                background-color: rgb(12, 7, 7);
+                color: tomato;
+               }
+               .main-heading{
+                   box-shadow: 2px 2px 5px gray;
+                   border-radius: 5px;
+                   border: solid black 4px;
+                
+               }
+               body{
+                   background-color: cadetblue;
+               }
+        </style>
+
+    </head>
+    <body>
+        <form class="main-heading">
+        First-name:<input type="text" placeholder="First Name"><br><br>
+        Last-name:<input type="text" placeholder="Last Name"><br><br>
+        Phone no:<input type="number" placeholder="Phone Number"><br><br>
+        Email Add:<input type="email" placeholder="Email"><br><br>
+        Password:<input type="password" placeholder="Password"><br><br>
+           <input type="submit" class="btn">
+        </form>
+    </body>
+</html>

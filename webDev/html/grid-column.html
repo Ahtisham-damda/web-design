@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            .grid-container{
+                background-color: red;
+                display: grid;
+                padding: 10px;
+                grid-template-columns: repeat(3, 25%);
+                grid-template-rows: 100px 100px 100px;
+                /* grid: 10px 20px;
+                display: grid; */
+                grid-gap: 10px;
+            }
+            .grid-item{
+                background-color: tomato;
+                border-radius: 5px;
+                border: solid 1px black;
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
+
+            }
+            [class^="para"]{
+                background-color: red;
+                margin: 0px;
+                padding: 10px;
+            }
+
+            #div1 a{
+                text-decoration: none;
+                color: black;
+            }
+            h1{
+                background-color: blueviolet;
+                padding: 15px;
+                text-align: center;
+                margin: 0px;
+            }
+            body{
+                margin: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Grid Elements</h1>
+
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aspernatur sapiente culpa doloremque iste, repudiandae,</p>
+
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nulla aut et a expedita optio odit facere.</p>
+        
+        <div class="grid-container">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+        </div>
+        <div id="div1">
+            <a href="../Assets/image/local.jpg">para1</a><br>
+            <a href="../Assets/image/local.jpg">para2</a>
+        </div>
+    </body>
+</html>
